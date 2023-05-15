@@ -1,0 +1,7 @@
+package colec;
+
+public class Paciente {
+	private int codPaciente, dniPaciente, tlfPaciente, corrPaciente, sexPaciente;
+	private String nomPaciente;
+
+}

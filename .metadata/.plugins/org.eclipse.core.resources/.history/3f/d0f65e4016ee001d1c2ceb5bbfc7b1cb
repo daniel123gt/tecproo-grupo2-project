@@ -1,0 +1,9 @@
+package colec;
+
+import java.util.ArrayList;
+
+public class Historia {
+	private int codHistoria;
+	private String fechaHistoria, pacHistoria, diagHistoria, tratHistoria;
+	private ArrayList<Medicina> medicamentos = new ArrayList<Medicina>();
+}
