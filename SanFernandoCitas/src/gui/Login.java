@@ -25,6 +25,7 @@ import java.awt.FlowLayout;
 import javax.swing.BoxLayout;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseEvent;
+import java.awt.Toolkit;
 
 public class Login extends JFrame implements MouseListener {
 
@@ -63,6 +64,7 @@ public class Login extends JFrame implements MouseListener {
 	 * Create the frame.
 	 */
 	public Login() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage(Login.class.getResource("/images/logoSolo.png")));
 		txtIngreseSuNombre.setFont(new Font("SansSerif", Font.PLAIN, 24));
 		txtIngreseSuNombre.setForeground(Color.GRAY);
 		txtIngreseSuNombre.setText("Ingrese su nombre de usuario");
